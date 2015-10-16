@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dialog_min_height"
+    android:minWidth="@dimen/dialog_min_width"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_padding">
+
+    <TextView
+        android:id="@+id/dialog_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_title_margin_left"
+        android:text="Title"
+        android:textSize="@dimen/dialog_title_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/dark_gray" />
+
+    <TextView
+        android:id="@+id/dialog_message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desc"
+        android:textSize="@dimen/dialog_message_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_gray" />
+
+    <Button
+        android:id="@+id/dialog_ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/dialog_btn_margin_top_bottom"
+        android:layout_marginTop="@dimen/dialog_btn_margin_top_bottom"
+        android:text="@string/dialog_ok_btn" />
+</LinearLayout>

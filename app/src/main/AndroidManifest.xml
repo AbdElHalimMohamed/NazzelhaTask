@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abdelhalim.nazzelhatask">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".ApplicationSingleTone"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activities.AuthActivity"
+            android:label="@string/activity_auth_label" />
+
+        <activity
+            android:name=".ui.activities.DialogActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" />
+
+    </application>
+
+</manifest>

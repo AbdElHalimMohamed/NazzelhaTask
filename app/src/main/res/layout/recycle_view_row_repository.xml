@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/repo_recycle_row_padding_top_bottom"
+    android:paddingLeft="@dimen/repo_recycle_row_padding_left_right"
+    android:paddingRight="@dimen/repo_recycle_row_padding_left_right"
+    android:paddingTop="@dimen/repo_recycle_row_padding_top_bottom">
+
+    <Button
+        android:id="@+id/fork_flag_view"
+        android:layout_width="@dimen/fork_flag_width"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:layout_toRightOf="@+id/fork_flag_view"
+        android:id="@+id/repo_owner_image"
+        android:layout_width="@dimen/repo_owner_image_size"
+        android:layout_height="@dimen/repo_owner_image_size"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/repo_owner_image_margin"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/repo_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/repo_owner_image"
+        android:singleLine="true"
+        android:textSize="@dimen/repo_title_text_size" />
+
+    <TextView
+        android:id="@+id/repo_desc_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repo_title_tv"
+        android:layout_toRightOf="@+id/repo_owner_image"
+        android:singleLine="true"
+        android:textSize="@dimen/repo_desc_text_size" />
+
+    <TextView
+        android:id="@+id/repo_owner_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repo_desc_tv"
+        android:layout_toRightOf="@+id/repo_owner_image"
+        android:singleLine="true"
+        android:textSize="@dimen/repo_owner_text_size" />
+</RelativeLayout>

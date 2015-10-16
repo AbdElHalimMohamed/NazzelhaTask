@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nazzelha Task</string>
+    <string name="open_repo_page_btn">Open repository page</string>
+    <string name="open_user_page_btn">Open owner page</string>
+    <string name="activity_auth_label">AuthActivity</string>
+    <string name="auth_progress_message">Authenticating...</string>
+    <string name="menu_sign_in">Sign In</string>
+    <string name="dialog_ok_btn">OK</string>
+</resources>

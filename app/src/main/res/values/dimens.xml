@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">56dp</dimen>
+    <dimen name="repo_title_text_size">18sp</dimen>
+    <dimen name="repo_desc_text_size">12sp</dimen>
+    <dimen name="repo_owner_text_size">14sp</dimen>
+    <dimen name="repo_owner_image_size">65dp</dimen>
+    <dimen name="repo_owner_image_margin">3dp</dimen>
+    <dimen name="repo_recycle_row_padding_top_bottom">8dp</dimen>
+    <dimen name="repo_recycle_row_padding_left_right">4dp</dimen>
+    <dimen name="divider_margin_left_right">20dp</dimen>
+    <dimen name="fork_flag_width">10dp</dimen>
+    <dimen name="fork_flag_height">65dp</dimen>
+    <dimen name="dialog_btn_margin_top_bottom">7dp</dimen>
+    <dimen name="dialog_btn_margin_left_right">5dp</dimen>
+    <dimen name="drawer_header_height">150dp</dimen>
+    <dimen name="drawer_header_padding">16dp</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+    <dimen name="dialog_message_text_size">14sp</dimen>
+    <dimen name="dialog_padding">5dp</dimen>
+    <dimen name="dialog_title_margin_left">3dp</dimen>
+    <dimen name="dialog_min_width">300dp</dimen>
+    <dimen name="dialog_min_height">150dp</dimen>
+</resources>

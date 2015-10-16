@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawer_header_height"
+        android:background="?attr/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/drawer_header_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+</RelativeLayout>

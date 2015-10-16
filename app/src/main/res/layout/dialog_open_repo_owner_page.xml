@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/open_repo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_btn_margin_top_bottom"
+        android:layout_marginLeft="@dimen/dialog_btn_margin_left_right"
+        android:layout_marginRight="@dimen/dialog_btn_margin_left_right"
+        android:layout_marginTop="@dimen/dialog_btn_margin_top_bottom"
+        android:text="@string/open_repo_page_btn" />
+
+    <Button
+        android:id="@+id/open_owner_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_btn_margin_top_bottom"
+        android:layout_marginLeft="@dimen/dialog_btn_margin_left_right"
+        android:layout_marginRight="@dimen/dialog_btn_margin_left_right"
+        android:layout_marginTop="@dimen/dialog_btn_margin_top_bottom"
+        android:text="@string/open_user_page_btn" />
+
+</LinearLayout>
